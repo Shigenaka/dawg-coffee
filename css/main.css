@@ -33,6 +33,10 @@ nav {
 	background-color: #181C22;
 }
 
+nav ul {
+	padding-left: 0px;
+}
+
 .nav-link {
 	color: white;
 	font-size: 16px;
@@ -54,11 +58,12 @@ nav {
 }
 
 #header p, #headline svg {
-	visibility: hidden;
+	display: none;
 }
 
 #headline {
 	font-style: italic;
+	text-align: left;
 }
 
 #cafe {
@@ -75,8 +80,8 @@ nav {
 	padding-top: 10px;
 }
 
-#menu p {
-	font-weight: bold;
+#cafe i {
+	color: black;
 }
 
 #menu dd {
@@ -96,7 +101,7 @@ nav {
 }
 
 #footer {
-	border-top: thick double #D87E28;
+	border-top: solid #D87E28;
 	padding-top: 1em;
 	background-color: #afb3c2;
 	font-size: 12px;
@@ -127,13 +132,23 @@ nav {
 		background-image: url('../img/background-sm.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position-y: 50%; 
 		text-align: right;
 		color: white;
 		min-height: 550px;
 	}
 
-	#header p, #headline svg {
-		visibility: visible;
+	#header h1 {
+		font-size: 2em;
+	}
+
+	#header p {
+		display: inherit;
+	}
+
+	#headline svg {
+		display: block;
+		margin: auto;
 	}
 
 	#headline svg {
