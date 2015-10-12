@@ -6,14 +6,14 @@ This folder contains your submission for the [responsive challenge](http://facul
 > Answer goes here!
 
 ##### 2. Did you receive any help from others (classmates, etc)? If so, please list who. #####
-> Answer goes here!
+> Kevin Yan, Joanna Koseff, and Michael Nguyen
 
 ##### 3. Did you complete any advanced extensions to this challenge? If so, what? #####
-> Answer goes here!
+> No, the regular stuff kept me quite busy :(
 
 ##### 4. Approximately how many hours did it take you to complete this challenge? #####
-> Answer goes here!
+> 10 hours
 
 ##### 5. Did you encounter any problems in this challenge we should warn students about in the future? How can we make the challenge better? #####
-> Answer goes here!
+> The descriptions could be a little bit better on the challange instruction page. Overall it was a difficult yet rewarding assignment it's a really great way to get students used to coding with HTML/CSS and working with mobile first in mind.
 

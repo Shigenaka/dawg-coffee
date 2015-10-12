@@ -1,1 +1,175 @@
 /* Your stylesheet goes here */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+	font-family: Lato, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	background-color: #E9EAEE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Raleway, 'Helvetica Neue', Helvetica, sans-serif
+}
+
+h2 {
+	color: #BC6026;
+}
+
+nav svg {
+	height: 1em;
+	fill: currentColor;
+}
+
+nav {
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #181C22;
+}
+
+.nav-link {
+	color: white;
+	font-size: 16px;
+	display: inline;
+	padding: 0.5em;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.nav-link:hover, .nav-link:focus {
+	text-decoration: none;
+	color: #D87E28;
+}
+
+#header {
+	padding-top: 3em;
+}
+
+#header p, #headline svg {
+	visibility: hidden;
+}
+
+#headline {
+	font-style: italic;
+}
+
+#cafe {
+	background-color: #dbdce3;
+}
+
+#cafe img {
+	border-radius: 5px;
+}
+
+#cafe svg {
+	fill: #D87E28;
+	height: 2em;
+	padding-top: 10px;
+}
+
+#menu p {
+	font-weight: bold;
+}
+
+#menu dd {
+	font-style: italic;
+	text-indent: 1em;
+}
+
+#story {
+	background-color: #dbdce3;
+}
+
+#story img {
+	max-height: 300px;
+	margin-left: 1em;
+	float: right;
+	border-radius: 5px;
+}
+
+#footer {
+	border-top: thick double #D87E28;
+	padding-top: 1em;
+	background-color: #afb3c2;
+	font-size: 12px;
+	clear: both;
+}
+
+@media (min-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+
+	h2 {
+		text-align: center;
+		padding-bottom: 1em;
+	}
+
+	nav {
+		background-color: rgba(24, 28, 34, 0.8);
+	}
+
+	.nav-link {
+		padding-left: 1em;
+		padding-right: 1em;
+		text-decoration: none;
+	}
+
+	#header {
+		background-image: url('../img/background-sm.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: right;
+		color: white;
+		min-height: 550px;
+	}
+
+	#header p, #headline svg {
+		visibility: visible;
+	}
+
+	#headline svg {
+		height: 1.5em;
+		padding-bottom: 1em;
+		padding-top: 3em;
+		padding-bottom: 3em;
+		fill: #D87E28;
+	}
+
+	#headline p {
+		font-size: 1.25em;
+		text-align: center;
+	}
+
+	#story img {
+		max-height: 400px;
+	}
+
+	#icons {
+		text-align: right;
+	}
+}
+
+@media (min-width: 992px) {
+	#header {
+		background-image: url('../img/background-md.jpg');
+	}
+
+	#header h1 {
+		font-size: 4em;
+	}	
+}
+
+@media (min-width: 1200px) {
+	#header {
+		background-image: url('../img/background-lg.jpg');
+	}
+}
