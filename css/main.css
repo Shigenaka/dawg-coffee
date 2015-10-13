@@ -22,6 +22,7 @@ h2 {
 nav svg {
 	height: 1em;
 	fill: currentColor;
+	margin-left: 15px;
 }
 
 nav {
@@ -35,7 +36,6 @@ nav {
 
 nav ul {
 	padding-left: 0px;
-	margin-left: 15px;
 }
 
 .nav-link {
